@@ -1,0 +1,400 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* -------------Navbar_Start------------ */
+#main-navbar {
+    height: 6vw;
+    width: 100vw;
+    background-color: aqua;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main-navbar div.logo a img.img {
+    height: 64px;
+    width: 125px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 0px 2px #0000ee;
+}
+
+#main-navbar div.location a {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: serif;
+    text-align: justify;
+    text-decoration-style: solid;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#main-navbar div.search-bar input {
+    height: 40px;
+    width: 35vw;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-style: none;
+    margin-left: 12px;
+}
+
+#main-navbar div.search-bar button {
+    height: 42px;
+    width: 66px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -8px;
+    background-color: #0000ee;
+    border-style: none;
+}
+
+#main-navbar div.search-bar button i.fa.fa-search {
+    font-size: 14px;
+    color: #ffff;
+}
+
+/* -----------------Language------------------ */
+#main-navbar div.language {
+    height: 46px;
+    width: 72px;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#main-navbar div.language img {
+    height: 15px;
+    width: 25px;
+}
+
+#main-navbar div.notifiction a i.fa-solid.fa-bell:before {
+    font-size: 30px;
+    color: #0000ee;
+}
+
+#main-navbar div.my-cart {
+    font-size: 21px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #0000ee;
+    margin-top: 1px;
+    height: 46px;
+    width: 56px;
+}
+
+#main-navbar div.my-cart a {
+    color: #ffffff;
+}
+
+#main-navbar div.my-cart a i.fa-solid.fa-cart-shopping {
+    color: #ffffff;
+}
+
+#main-navbar div.login-page {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #0000ee;
+    font-size: 20px;
+    height: 46px;
+    width: 56px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#main-navbar div.login-page a {
+    color: #ffffff;
+    text-align: center;
+}
+
+/* ---------------NavBar_List_start----------------- */
+#navbar2 {
+    height: 4vw;
+    width: 100vw;
+    background-color: #cbe1df;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+
+}
+
+#navbar2 all {
+    font-weight: 500;
+    color: #ffffff;
+}
+
+/*--------------Current Offer-Discount Templete--------------*/
+div.offer {
+    height: 20vw;
+    width: 100vw;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: bisque;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+div.offer div.off1 img {
+    height: 180px;
+    width: 250px;
+    margin-right: 13px;
+    border-radius: 15px;
+    position: relative;
+    animation: mymove 9s infinite;
+}
+
+div.offer div.off2 img {
+    height: 180px;
+    width: 250px;
+    margin-right: 13px;
+    border-radius: 15px;
+    position: relative;
+    animation: mymove 10s infinite;
+}
+
+div.offer div.off3 img {
+    height: 180px;
+    width: 250px;
+    margin-right: 13px;
+    border-radius: 15px;
+    position: relative;
+    animation: mymove 11s infinite;
+}
+
+div.offer div.off4 img {
+    height: 180px;
+    width: 250px;
+    margin-right: 13px;
+    border-radius: 15px;
+    position: relative;
+    animation: mymove 12s infinite;
+}
+
+div.offer div.off5 img {
+    height: 180px;
+    width: 250px;
+    margin-right: 13px;
+    border-radius: 15px;
+    position: relative;
+    animation: mymove 13s infinite;
+}
+
+@keyframes mymove {
+    from {
+        right: -120vw;
+    }
+
+    to {
+        right: 110vw;
+    }
+}
+
+/* ---------Current Offer-Discount Templete end--------- */
+
+/* -------------product List------------- */
+div.product {
+    height: 25vw;
+    width: 100vw;
+    display: inline-flex;
+    gap: 1rem;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+div.product div.p1 a img {
+    height: 22vw;
+    width: 31vw;
+    border-radius: 20px; 
+    transition: transform .0.5;
+}
+div.product div.p1:hover{
+    transform: scale(1.1);
+}
+div.product div.p1 img {
+    height: 22vw;
+    width: 31vw;
+    border-radius: 20px;
+    transition: transform .0.5;
+}
+div.product div.p1:hover{
+    transform: scale(1.1);
+}
+
+div.product div.p2 img {
+    height: 22vw;
+    width: 31vw;
+    border-radius: 20px;
+    transition: transform .0.5;
+}
+div.product div.p2:hover{
+    transform: scale(1.1);;
+}
+
+div.product div.p3 img {
+    height: 22vw;
+    width: 31vw;
+    border-radius: 20px;
+    transition: transform .0.5;
+}
+div.product div.p3:hover{
+    transform: scale(1.1);
+}
+
+div.product div.p4 img {
+    height: 22vw;
+    width: 31vw;
+    border-radius: 20px;
+    transition: transform .0.5;
+}
+div.product div.p4:hover{
+    transform: scale(1.1);
+}
+
+div.product div.p5 img {
+    height: 22vw;
+    width: 31vw;
+    border-radius: 20px;
+    transition: transform .0.5;
+}div.product div.p5:hover{
+    transform: scale(1.1);
+}
+
+div.product div.p6 img {
+    height: 22vw;
+    width: 31vw;
+    border-radius: 20px;
+    transition: transform .0.5;
+}
+div.product div.p6:hover{
+    transform: scale(1.1);;
+}
+
+/*--------------- Index.Vegetable------------ */
+
+
+div.shop-card {
+    height: 25vw;
+    width: 100vw;
+    display: inline-flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+div.shop-card div.card1 img.card-img-top {
+    height: 18vw;
+    width: 25vw;
+    border-radius: 10px;
+    transition: transform .0.5;
+}
+div.shop-card div.card1 img.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+div.shop-card div.card2 img.card-img-top {
+    height: 18vw;
+    width: 25vw;
+    border-radius: 10px;
+    transition: transform .0.5;
+}
+div.shop-card div.card2 img.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+div.shop-card div.card3 img.card-img-top {
+    height: 18vw;
+    width: 25vw;
+    border-radius: 10px;
+    transition: transform .0.5;
+}
+div.shop-card div.card3 img.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+div.shop-card div.card4 img.card-img-top {
+    height: 18vw;
+    width: 25vw;
+    border-radius: 10px;
+    transition: transform .0.5;
+}
+div.shop-card div.card4 img.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+div.shop-card div.card5 img.card-img-top {
+    height: 18vw;
+    width: 25vw;
+    border-radius: 10px;
+    transition: transform .0.5;
+}
+div.shop-card div.card5 img.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+div.shop-card div.card6 img.card-img-top {
+    height: 18vw;
+    width: 25vw;
+    border-radius: 10px;
+    transition: transform .0.5;
+}
+div.shop-card div.card6 img.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+div.shop-card div.card7 img.card-img-top {
+    height: 18vw;
+    width: 25vw;
+    border-radius: 10px;
+    transition: transform .0.5;
+}
+div.shop-card div.card7 img.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+div.shop-card div.card8 img.card-img-top {
+    height: 18vw;
+    width: 25vw;
+    border-radius: 10px;
+    transition: transform .0.5;
+}
+div.shop-card div.card8 img.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+div.shop-card div.card9 img.card-img-top {
+    height: 18vw;
+    width: 25vw;
+    border-radius: 10px;
+    transition: transform .0.5;
+}
+div.shop-card div.card9 img.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+/* ---------------Footer start------------------- */
+#footer{
+    height: 50vw;
+    width: auto;
+    background-color: teal;
+    padding-top: 25;
+    margin-top: 24vw;
+}
+#footer div.section1{
+    height: 5vw;
+    width: auto;
+    background-color: rgba(37, 41, 170, 0.5);
+}
+#footer div.section1 a h1{
+    font-size: 30px;
+    font-family: math;
+    color: blanchedalmond;
+    text-align: center;
+    text-decoration: underline;
+}
